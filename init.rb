@@ -1,8 +1,7 @@
 require 'redmine'
 
 Rails.configuration.to_prepare do
-  require_dependency 'application_helper'
-  ApplicationHelper.send(:include, AbsoluteDateHelperPatch)
+  RedmineAbsoluteDates::ApplicationHelperPatch.apply
 end
 
 Rails.application.config.i18n.load_path += Dir["#{File.dirname(__FILE__)}/config/locales/*.{rb,yml}"]
