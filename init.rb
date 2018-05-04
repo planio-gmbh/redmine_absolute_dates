@@ -4,8 +4,6 @@ Rails.configuration.to_prepare do
   RedmineAbsoluteDates::ApplicationHelperPatch.apply
 end
 
-Rails.application.config.i18n.load_path += Dir["#{File.dirname(__FILE__)}/config/locales/*.{rb,yml}"]
-
 Redmine::Plugin.register :redmine_absolute_dates do
   name 'Redmine Absolute Dates plugin'
   author 'suer'
