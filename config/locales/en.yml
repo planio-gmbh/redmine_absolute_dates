@@ -1,4 +1,4 @@
 en:
   label_added_absolute_time_by: "Added by %{author} on %{age}"
   label_updated_time: "Updated on %{value}"
-  label_updated_time_by: "Updated by %{author} on {age}"
+  label_updated_time_by: "Updated by %{author} on %{age}"
