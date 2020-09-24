@@ -1,5 +1,5 @@
 de:
   label_added_absolute_time_by: "Hinzugefügt von %{author} am %{age}"
   label_updated_time: "Aktualisiert am %{value}"
-  label_updated_time_by: "Von %{author} am {age} aktualisiert"
+  label_updated_time_by: "Von %{author} am %{age} aktualisiert"
 
